@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places i have visited</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="https://i.pinimg.com/736x/b1/bc/53/b1bc53907fc3a5ee92116644056fe8d6.jpg">
+    
+<div class="app-container">
+    <!-- INPUT SECTION -->
+    <aside class="control-panel">
+        <h1>Favourite places</h1>
+        
+        
+        <div class="form-group">
+            <label>places Description</label>
+            <select name="description" id="t-desc">
+                <option value="swimming 🏖️">swimming</option>
+                <option value="hiking 🏔️">hiking</option>
+                <option value="eating 🏟️"> eating</option>
+                <option value="praying ⛪">praying  </option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>location</label>
+            <select id="location">
+                <option value="beach">beach 🏝️ </option>
+                <option value="mountains">mountains 🏞️ </option>
+                <option value="city">hotels 🏟️</option>
+                <option value="church">church ⛪</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>landmarks</label>
+            <select id="landmarks">
+                <option value="island">lamu island 🏝️</option>
+                <option value="peaks">nanyuki peak 🏔️</option>
+                <option value="tower"> GTC tower 🗼</option>
+                <option value="cross">cathedral cross ✝️</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>time of visit</label>
+            <select id="time">
+                <option value="morning">morning 🌅</option>
+                <option value="afternoon">afternoon 🌞</option>
+                <option value="evening">evening 🌇</option>
+                <option value="night">night 🌙</option>
+            </select>
+        </div>
+
+
+        <button class="btn-add" id="add-place-btn">place</button>
+ 
+    </aside>
+
+
+<main class="place-list-container" id="places-display">
+        
+    </main>
+        
+</div>
+<script src="script.js"></script>
+</body>
+</html>
